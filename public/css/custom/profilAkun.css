@@ -1,0 +1,355 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 12:29:13 PM
+    Author     : Arif
+*/
+
+.backgroundTop{
+    background-color: #0098DA;
+}
+
+.backgroundBottom{
+    background-color: #F4F5F6;
+    padding-bottom: 100px;
+}
+
+.content-top{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    background-color: #F4F5F6;
+    background-image: url('../../img/icon/background-top.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 280px;
+}
+
+.boxOut-content{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+
+
+
+.boxOut-footerLogin{
+    position: absolute; 
+    bottom: 20px;
+}
+
+.box-footerLogin{
+    width: 840px;
+    bottom: 20px;
+    float: none;
+    color: #999999;
+    font-size: 12px;
+}
+
+.footer-batas{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.boxOut-titlePage{
+    color: #114F94;
+    font-size: 24px;
+    padding-left: 100px;
+}
+
+.boxOut-button{
+    width: 120px;
+    height: 30px;
+    float: right;
+}
+
+.button-unduh{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #0098DA;
+    color: white !important;
+    font-size: 13px;
+    //border: 1px solid #0D84BB;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition-duration:0.1s;
+    float: right;
+}
+
+.button-unduh:hover, .button-unduh:focus{
+    background-color: #0071A1;
+    transition-duration:0.1s;
+}
+
+.circle-profilImg{
+    position: absolute;
+    height: 165px;
+    width: 165px;
+    border: 10px solid #DFF2FC;
+    border-radius: 100%;
+    margin-left: -80px;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: -40px;
+}
+
+.circle-profilImg img{
+    height: 100%;
+    width: 100%;
+}
+
+.boxOut-pageContent{
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 15px;
+}
+
+.boxOut-content-left{
+    border-right: 2px solid #D2EFFC;
+    padding-right: 20px;
+}
+
+.boxOut-contentTitle{
+    font-size: 20px;
+    color: #0794D1;
+    margin-bottom: 20px;
+}
+
+.boxOut-fieldTitle{
+    color: #A5A5A5;
+    font-size: 12px;
+}
+
+.boxOut-fieldText{
+    color: #A5A5A5;
+    font-size: 14px;
+}
+
+.boxOut-listField{
+    margin-bottom: 15px;
+}
+
+.boxOut-contentTitle-sandi{
+    margin-top: 45px;
+}
+
+.boxOut-content-right{
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .circle-profilImg {
+        height: 140px;
+        width: 140px;
+
+        margin-left: -70px;
+        margin-top: -25px;
+    }
+
+    .boxOut-titlePage {
+        font-size: 22px;
+        padding-left: 90px;
+    }
+
+    .boxOut-contentTitle {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .boxOut-fieldTitle {
+        font-size: 10px;
+    }
+
+    .boxOut-fieldText {
+        font-size: 12px;
+    }
+
+    .boxOut-content {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 45px;
+    }
+
+    .boxOut-pageContent{
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    .box-footerLogin {
+        width: 740px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-pageContent {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        margin-top: 15px;
+    }
+
+    .boxOut-content-right {
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+    .boxOut-fieldText {
+        font-size: 12px;
+    }
+
+    .boxOut-fieldTitle {
+        font-size: 10px;
+    }
+
+    .boxOut-contentTitle {
+        font-size: 18px;
+    }
+
+    .circle-profilImg {
+        height: 130px;
+        width: 130px;
+        border: 10px solid #DFF2FC;
+        margin-left: -65px;
+        margin-top: -20px;
+    }
+
+    .boxOut-titlePage {
+        font-size: 20px;
+        padding-left: 90px;
+    }
+
+    .button-unduh {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media (max-width:767px) {
+
+    .content-top {
+        margin-top: 120px !important;
+    }
+
+
+
+    .boxOut-footerLogin {
+        position: inherit;
+        bottom: auto;
+        margin-top: 50px;
+    }
+
+    .content-top{
+        position: inherit;
+    }
+
+    .box-footerLogin {
+        margin-bottom: 20px;
+    }
+
+    .circle-profilImg {
+        position: inherit;
+        height: 120px;
+        width: 120px;
+        margin-left: 0px;
+        margin-top: 0px;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .boxOut-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .boxOut-titlePage {
+        font-size: 20px;
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .button-unduh {
+        font-size: 12px;
+    }
+
+    .boxOut-button{
+        float: none;
+        margin-top: 10px;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .boxOut-pageContent {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .boxOut-content-left {
+        border-right: none;
+        padding-right: 0px;
+    }
+
+    .boxOut-content-right {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-contentTitle-sandi {
+        margin-top: 0px;
+    }
+
+    .box-footerLogin {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+
+}

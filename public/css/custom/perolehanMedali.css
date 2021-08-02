@@ -1,0 +1,461 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 12:29:13 PM
+    Author     : Arif
+*/
+
+
+.backgroundTop{
+    background-color: #0098DA;
+}
+
+.backgroundBottom{
+    background-color: #F4F5F6;
+}
+
+.backgroundBottom-white{
+    background-color: white;
+}
+
+.content-top{
+    margin-top: 0px !important;
+    padding-bottom: 70px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.boxOut-content{
+    margin-top: -85px; 
+    margin-bottom: 65px;
+    background-color: #D5EFFC;
+}
+
+.boxOut-sambutan{
+    background-color: white;
+    padding: 30px 125px 40px 125px;
+}
+
+
+
+
+.boxOut-medal{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 90px;
+}
+
+.boxOut-medal > .col-md-4{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.img-medal{
+    width: 100%;
+}
+
+.boxOut-medalCount{
+    /*    padding-left: 18%;
+        padding-right: 18%;*/
+    //padding-top: 90px;
+
+}
+
+.boxOut-medalCount > .col-md-4 .boxOut-medalGold, .boxOut-medalCount > .col-md-4 .boxOut-medalSilver, .boxOut-medalCount > .col-md-4 .boxOut-medalBronze{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.boxOut-medalGold{
+    color: #FAF068;
+}
+
+.boxOut-medalSilver{
+    color: #B3B3B3;
+}
+
+.boxOut-medalBronze{
+    color: #F89D5C;
+}
+
+
+
+
+.button-medal{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: transparent;
+    color: white !important;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition-duration:0.1s;
+    border: 1px solid white;
+}
+
+.button-medal:hover, .button-medal:focus{
+    background-color: white;
+    color: black !important;
+    transition-duration:0.1s;
+}
+
+.boxOut-buttonMedal{
+    width: 260px;
+    height: 48px;
+    float: none;
+    margin-top: 60px;
+}
+
+.boxOut-tabMedali{
+    width: 30%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-listMedali{
+    width: 70%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    border-left: 5px solid #D5EFFC;
+}
+
+.boxOut-tabMedali-title{
+    height: 85px;
+    color: white;
+    font-size: 20px;
+    padding: 30px 20px 0px 20px;
+    background-color: #0098DA;
+}
+
+.box-tabMedali{
+    background-color: #0098DA;
+    min-height: 223px;
+    height: auto;
+}
+
+
+
+
+/*-- Tab Index --*/
+/*--==================================================--*/
+
+.navbarMenu-indexBerita{
+    padding: 0px 0px;
+    //margin-bottom: -15px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: left;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active, 
+.navbarMenu-indexBerita > .nav-tabs > li.active:hover{
+    color: white !important;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    margin: 0px;
+    border: none !important;
+    border-radius: 0px;
+    //margin-top: -4px;
+    background-color:#047FBB;
+}
+
+
+
+.navbarMenu-indexBerita > .nav-tabs > li > a{
+    color: white !important;
+    font-size: 14px;
+    padding: 0px;
+    text-align: left;
+    border-radius: 0px;
+    margin-right: 0px;
+    border: none !important;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li > a > .col-md-12{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #047FBB;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-tabs-indexBerita {
+    border-bottom: none;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li:hover{
+    background-color:#047FBB;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active .triangle-menu{
+    display: block;
+}
+
+
+.triangle-menu{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #d5effc transparent transparent;
+
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    display: none;
+}
+
+
+
+.boxOut-table-title{
+    height: 50px;
+    background-color: #047FBB;
+    color: white;
+    padding-left: 45px;
+    font-size: 17px;
+    padding-top: 13px;
+}
+
+
+
+
+
+
+.table-responsive {
+    border: none;
+}
+
+.title-table{
+    font-size: 14px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px !important;
+    color: white;
+    padding: 0px !important;
+    padding-top: 6px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.table-medal{
+    color: #093B75;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.table-medal td{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.td-daerah{
+    padding-left: 20px !important;
+}
+
+.img-tableMedal{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.title-table-1{
+    background-color: #0098DA;
+}
+
+.title-table-2{
+    background-color: #67BDE4;
+}
+
+.title-2{
+    width: 130px;
+}
+
+.title-3{
+    width: 130px;
+}
+
+.title-4{
+    width: 130px;
+}
+
+.title-5{
+    width: 130px;
+}
+
+.tr-1-td-1{
+    background-color: #87D5F7;
+}
+
+.tr-1-td-2{
+    background-color: #A6DFF9;
+}
+
+.tr-2-td-1{
+    background-color: #ACE1F9;
+}
+
+.tr-2-td-2{
+    background-color: #C3E9FB;
+}
+
+.table > tbody > tr > td{
+    padding: 10px;
+}
+
+.boxOut-tabPane .tab-pane{
+    background-color: #67BDE4;
+    min-height: 258px;
+}
+
+
+.boxOut-tabPane .tab-content{
+    background-color: #0098DA;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-content {
+        margin-top: -45px;
+    }
+
+    .boxOut-backgroundText {
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+
+    .box-backgroundText {
+        height: 150px;
+    }
+
+    .boxOut-medal {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:767px) {
+
+
+    .content-top {
+        margin-top: 120px !important;
+        height: auto;
+    }
+
+    .boxOut-backgroundText {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-backgroundText {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .boxOut-tabMedali{
+        width: 100%;
+    }
+
+    .boxOut-listMedali{
+        width: 100%;
+        margin-top: 20px;
+        border-left: none;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs > li.active .triangle-menu {
+        display: none;
+    }
+
+    .box-tabMedali {
+        height: auto;
+    }
+
+    .boxOut-medal {
+        padding-top: 50px;
+    }
+
+    .img-medal {
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .boxOut-medalCount > .col-md-4 .boxOut-medalGold, .boxOut-medalCount > .col-md-4 .boxOut-medalSilver, .boxOut-medalCount > .col-md-4 .boxOut-medalBronze {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .boxOut-tabMedali-title {
+        height: auto;
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    .boxOut-table-title {
+        height: auto;
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+}
+
+

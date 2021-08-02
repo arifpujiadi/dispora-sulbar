@@ -1,0 +1,527 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 12:29:13 PM
+    Author     : Arif
+*/
+
+.backgroundTop{
+    background-color: #0098DA;
+}
+
+.backgroundBottom{
+    background-color: #F4F5F6;
+    padding-bottom: 100px;
+}
+
+.content-top{
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+.content-bottom{
+
+}
+
+.boxOut-subTitleTop{
+    color: white;
+    font-size: 14px;
+}
+
+.boxOut-titleTop{
+    margin-top: 35px;
+}
+
+.boxOut-primaryTitleTop{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.page-content {
+    display: none;
+}
+.page-content.active {
+    display: block;
+}
+
+.btn-searchOR, .btn-searchPM, .btn-searchSK {
+    width: 150px;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    padding: 10px 0;
+}
+.btn-searchSK {
+    background-color: #25A8E0;
+}
+
+.btn-searchOR {
+    background-color: #4ABDED;
+}
+
+.btn-searchPM {
+    background-color: #94D9F8;
+}
+
+.btn-filter {
+    background-color: #94D9F8;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.btn-filter img {
+    margin-right: 5px;
+}
+
+.all-btnSearch:hover, .all-btnSearch:focus, .all-btnSearch:active {
+    background-color: #0A76AA;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.search-form .icon-left {
+    left: 0;
+    top: 3px;
+    color: #0098DA;
+}
+.search-form .form-control {
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 0;
+    height: auto;
+    color: #0098DA;
+}
+
+.search-form .form-control::-webkit-input-placeholder {
+    color: #0098DA;
+}
+
+.search-form .form-control::-moz-placeholder {
+    color: #0098DA;
+}
+
+.boxOut-main {
+    margin-top: -45px; 
+    background-color: #fff;
+}
+
+.main-content {
+
+    position: relative;
+    padding: 40px 20px;
+}
+
+.main-content .outer-boxBerkas {
+    /*padding: 0 20px;*/
+    margin-bottom: 20px;
+}
+
+.box-berkas {
+    border: 1px solid #4ABDED;
+    padding: 20px;
+    width: 196px;
+    height: 196px;
+    margin: 0 auto;
+}
+
+.box-berkas * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-berkas .berkas-name {
+    margin-top: 15px;
+    font-size: 10px;
+    color: #4D4D4D;
+    height: 30px;
+    overflow: hidden;
+}
+
+.box-berkas .download-link {
+    margin-top: 18px;
+    color: #94D9F8;
+}
+
+.download-link a {
+    color: #94D9F8;
+}
+
+.download-link a:hover {
+    color: #0098DA;
+    transition-duration: 0.3s;
+}
+
+.box-pagination {
+    padding: 0 40px 40px 40px;
+    text-align: center;
+    color: #94D9F8;
+}
+
+span a {
+    font-size: 18px;
+    color: #94D9F8;
+    padding: 0 3px;
+}
+
+span a:hover, span a:focus, span a.active {
+    color: #337ab7;
+}
+
+
+
+
+
+/*-- Tab Pegawai --*/
+/*--==================================================--*/
+
+.navbarMenu-indexBerita{
+    padding: 0px 0px;
+    //margin-bottom: -15px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: right;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active > a, 
+.navbarMenu-indexBerita > .nav-tabs > li.active > a:hover{
+    color: white;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    padding: 10px 20px 0px 20px;
+
+    width: auto;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+    //margin-top: -4px;
+
+}
+
+
+
+.navbarMenu-indexBerita > .nav-tabs > li > a{
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+    width: auto;
+    border-radius: 0px;
+    margin-right: 0px;
+    border: none;
+    -moz-box-sizing: border-box;
+    height: 40px;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.nav-tabs-indexBerita {
+    border-bottom: none;
+}
+
+
+
+
+
+.tab-berita-1, .tab-berita-1 > a{
+    background-color: #047FBB !important;
+}
+
+.tab-berita-2, .tab-berita-2 > a{
+    background-color: #0098DA !important;
+}
+
+.tab-berita-3, .tab-berita-3 > a{
+    background-color: #25A8E0 !important;
+}
+
+.tab-berita-4, .tab-berita-4 > a{
+    background-color: #4ABDED !important;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.edit-input-search::-webkit-input-placeholder { 
+    font-style: normal;
+    color: #0098DA !important;
+}
+.edit-input-search:-moz-placeholder {
+    font-style: normal;
+    color: #0098DA !important;
+}
+.edit-input-search::-moz-placeholder { 
+    font-style: normal;
+    color: #0098DA !important; 
+}
+.edit-input-search:-ms-input-placeholder { 
+    font-style: normal;
+    color: #0098DA !important;
+}
+
+
+.share-popup {
+    width : 290px;
+    height : auto;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    margin-top: 0px;
+    background-color: white;
+    
+    border-radius: 0px;
+    padding: 0px 20px 30px 20px;
+    right: 0;
+    border: 1px solid #0098DA;
+    border-top: 2px solid #066EA4;
+}
+
+.dropdown-guestCheckout, .dropdown-guestCheckout:focus{
+    height:26px;
+    border-radius: 0px;
+    padding: 0px 0px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #047FBB;
+    box-shadow: none;
+    color: #047FBB;
+    font-size: 14px;
+    font-style: normal;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../img/icon/arrowDown-dropDownBlue.png') no-repeat;
+    background-size: 6px 6px;
+    background-position: 97% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+    margin-top: 15px;
+}
+
+.dropdown-option, .dropdown-option:focus{
+    height:25px;
+    border-radius: 0px;
+    padding: 0px 5px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #047FBB;
+    font-size: 12px;
+    font-style: normal;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../img/icon/arrowDown-dropDownBlue.png') no-repeat;
+    background-size: 6px 6px;
+    background-position: 95% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+}
+
+
+
+
+.box-checkBox{
+    padding-top: 10px;    
+}
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    //margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #FEFEFE;;
+    border: 1px solid #047FBB;
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    padding: 0px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 0px;
+
+
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: #047FBB;
+    box-shadow: inset 0px 0px 0px 0px #047FBB;
+    border-radius: 100%;
+
+}
+
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+    outline: 0px none; /* focus style */
+}
+
+.checkbox-custom-label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-weight: normal !important;
+    font-size: 12px;
+    margin-left: 0px;
+    color: #047FBB !important;
+}
+
+
+.checkbox1-hide{
+    //display: none;
+}
+
+.checkbox2-hide{
+    display: none;
+}
+
+.boxCheckboxContent{
+    background-color: #F2F3F3;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.btn-cari {
+    position: relative;
+    font-size: 13px;
+    height: 28px;
+    width: 85px;
+    padding-top: 4px;
+    padding-left: 10px;
+    border-radius: 0px;
+    background-color: #67BDE4;
+    border: none;
+    color: white;
+    transition-duration: 0.1s;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 20px;
+}
+
+.btn-cari:hover, .btn-cari:focus{
+    background-color: #4F93B3 !important;
+    color: white !important;
+    transition-duration: 0.1s;
+}
+
+
+
+
+
+@media (min-width:600px) and (max-width: 991px) {
+
+    .all-btnSearch {
+        width: 130px;
+        font-size: 12px;
+        padding-top: 12px;
+        padding-bottom: 11px;
+    }
+
+}
+@media (max-width: 767px) {
+
+    .boxOut-titleTop {
+        padding: 0 20px;
+    }
+
+    .input-group{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .button-width{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .edit-1{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        margin-bottom: 20px;
+    }
+
+    .edit-2{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        margin-bottom: 20px;
+    }
+
+    .edit-3{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .all-btnSearch {
+        font-size: 12px;
+        padding-top: 12px;
+        padding-bottom: 11px;
+    }
+    
+    .share-popup {
+        width: 245px;
+        right: inherit;
+        left: 0 !important;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .main-content {
+        padding: 40px 0;
+    }
+
+    .outer-boxBerkas {
+        width: 100%;
+    }
+    
+    
+
+}

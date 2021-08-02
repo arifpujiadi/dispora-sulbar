@@ -1,0 +1,728 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 12:29:13 PM
+    Author     : Arif
+*/
+
+
+.backgroundTop{
+    background-color: #0098DA;
+}
+
+.backgroundBottom{
+    background-color: #F4F5F6;
+}
+
+.backgroundBottom-white{
+    background-color: white;
+}
+
+.content-top{
+    margin-top: 70px;
+    padding-bottom: 70px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.boxOut-backgroundText{
+    padding-right: 280px;
+    padding-top: 175px;
+}
+
+.box-backgroundText{
+    height: 90px;
+    overflow: hidden;
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+}
+
+.circle-photo{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 25px;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.boxOut-content{
+    margin-top: -85px; 
+}
+
+.boxOut-sambutan{
+    background-color: white;
+    padding: 30px 125px 40px 125px;
+}
+
+.boxOut-titleSambutan{
+    color: #0098DA;
+    font-size: 26px;
+}
+
+.boxOut-titleOleh{
+    color: #808080;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.boxOut-titleName{
+    color: #808080;
+    font-size: 27px;
+    line-height: 27px;
+}
+
+.boxOut-titleJabatan{
+    color: #808080;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.boxOut-sambutanText{
+    color: #808080;
+    font-size: 14.5px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.boxOut-sambutanText p{
+    margin-bottom: 25px;
+}
+
+.boxOut-visi{
+    background-color: #4ABDED;
+    padding: 30px 110px 0px 125px;
+    height: 380px;
+}
+
+.boxOut-misi{
+    background-color: #0098DA;
+    padding: 30px 40px 0px 40px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.boxOut-visiTitle{
+    color: white;
+    font-size: 28px;
+}
+
+.boxOut-visiText{
+    color: white;
+    font-size: 14.5px;
+    margin-top: 40px;
+    text-align: justify;
+    max-height: 190px;
+    overflow: hidden;
+}
+
+.boxOut-misiText{
+    color: white;
+    font-size: 14.5px;
+    margin-top: 40px;
+    text-align: justify;
+    max-height: 210px;
+    overflow: hidden;
+}
+
+.boxOut-misiText p{
+    margin-bottom: 20px;
+}
+
+.boxOut-bidangKerja{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.boxOut-bidangKerja-title{
+    color: #0098DA;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.boxOut-listBidang{
+    margin-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.img-bidang{
+    height: 130px;
+    max-width: 100%;
+}
+
+.boxOut-bidangTitle{
+    color: #0098DA;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxOut-bidangText{
+    color: #4D4D4D;
+    font-size: 14.5px;
+    text-align: justify;
+    margin-top: 20px;
+    max-height: 190px;
+    overflow: hidden;
+}
+
+.boxOut-dataPegawai{
+    padding-top: 50px;
+}
+
+.boxOut-titleBerita{
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    color: #0098DA;
+    font-size: 28px;
+}
+
+.boxOut-tabBerita{
+    width: 75%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    padding-top: 0px !important;
+}
+
+
+
+
+/*-- Tab Pegawai --*/
+/*--==================================================--*/
+
+.navbarMenu-indexBerita{
+    padding: 0px 0px;
+    //margin-bottom: -15px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: right;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active > a, 
+.navbarMenu-indexBerita > .nav-tabs > li.active > a:hover{
+    color: white;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    padding: 10px 20px 0px 20px;
+
+    width: auto;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+    //margin-top: -4px;
+
+}
+
+
+
+.navbarMenu-indexBerita > .nav-tabs > li > a{
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+    width: auto;
+    border-radius: 0px;
+    margin-right: 0px;
+    border: none;
+    -moz-box-sizing: border-box;
+    height: 40px;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.nav-tabs-indexBerita {
+    border-bottom: none;
+}
+
+
+
+
+
+.tab-berita-1, .tab-berita-1 > a{
+    background-color: #047FBB !important;
+}
+
+.tab-berita-2, .tab-berita-2 > a{
+    background-color: #0098DA !important;
+}
+
+.tab-berita-3, .tab-berita-3 > a{
+    background-color: #25A8E0 !important;
+}
+
+.tab-berita-4, .tab-berita-4 > a{
+    background-color: #4ABDED !important;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+
+.boxOut-menuPegawai{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+}
+
+.boxOut-listPegawai{
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.img-pegawai{
+    width: 100%;
+    height: 147px;
+}
+
+.boxOut-imgPegawai{
+    margin-top: 20px;
+    border-bottom: 5px solid #0098DA;
+    overflow: hidden;
+
+}
+
+.boxOut-namaPegawai{
+    color: #808080;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.boxOut-nipPegawai{
+    color: #808080;
+    font-size: 9.5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.boxOut-jabatanPegawai{
+    color: #808080;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.boxOut-jabatan2Pegawai{
+    color: #808080;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.boxOut-buttonUnduh{
+    width: 255px;
+    height: 35px;
+    float: none;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.button-unduh{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: transparent;
+    color: #0D84BB !important;
+    font-size: 13px;
+    border: 1px solid #0D84BB;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition-duration:0.1s;
+}
+
+.button-unduh:hover, .button-unduh:focus{
+    background-color: #0D84BB;
+    color: white !important;
+    transition-duration:0.1s;
+}
+
+.indicators-edit{
+    bottom: 0;
+    width: 100%;
+    margin-left: -50%;
+    text-align: center;
+    margin-bottom: -110px;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background-color: #828282;
+    border: none !important;
+    margin-right: 12px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #B3B3B3;
+    border: none !important;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+.tab-content > .tab-pane{
+    height: 410px;
+}
+
+
+
+
+
+.boxOut-imgPegawai:hover > .pegawai-hover{
+    display: block;
+    transition-duration:0.1s;
+}
+
+.pegawai-hover{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 152, 218, 0.5);
+    top: 0;
+    left: 0;
+    transition-duration:0.1s;
+    padding-top: 40%;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.circle-sosialMedia{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 0px;
+    transition-duration:0.1s;
+}
+
+.circle-sosialMedia:hover{
+    background-color: #E0E1E0;
+    transition-duration:0.1s;
+}
+
+.pegawai-sosialImg{
+    height: 12px;
+    margin-top: -2px;
+}
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-content {
+        margin-top: -45px;
+    }
+
+    .boxOut-backgroundText {
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+
+    .box-backgroundText {
+        height: 150px;
+    }
+
+    .circle-photo {
+        margin-top: 150px;
+    }
+
+    .boxOut-sambutan {
+        padding: 30px 40px 40px 40px;
+    }
+
+    .boxOut-visi {
+        padding: 30px 40px 0px 40px;
+    }
+
+    .boxOut-visiText {
+        max-height: 210px;
+    }
+
+    .boxOut-bidangKerja {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+
+    .boxOut-listPegawai {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .boxOut-menuPegawai {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .img-pegawai {
+        height: 120px;
+    }
+
+
+
+
+    .pegawai-hover{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .circle-sosialMedia{
+        height: 25px;
+        width: 25px;
+    }
+
+    .img-bidang{
+        height: 118px;
+    }
+
+    .boxOut-listBidang {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+
+
+}
+
+@media (max-width:767px) {
+
+
+    .content-top {
+        margin-top: 120px !important;
+        height: auto;
+    }
+
+    .boxOut-backgroundText {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-backgroundText {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .boxOut-sambutan {
+        padding: 80px 20px 40px 20px;
+    }
+
+    .boxOut-visi {
+        padding: 30px 20px 30px 20px;
+        height: auto;
+    }
+
+    .boxOut-bidangKerja {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .circle-photo {
+        width: 124px;
+        height: 124px;
+        position: inherit;
+
+        right: 0px;
+        margin-top: 0px;
+        margin-bottom: -90px;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .boxOut-titleSambutan {
+        font-size: 22px;
+    }
+
+    .boxOut-titleName {
+        font-size: 22px;
+    }
+
+    .boxOut-misi {
+        padding: 30px 20px 30px 20px;
+        height: auto;
+    }
+
+    .boxOut-visiText {
+        max-height: none;
+        margin-top: 20px;
+    }
+
+    .boxOut-misiText {
+        margin-top: 20px;
+        max-height: none;
+    }
+
+    .boxOut-bidangKerja-title {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+
+    .boxOut-listBidang {
+        margin-top: 50px;
+    }
+
+    .img-bidang{
+        height: 75px;
+    }
+
+    .boxOut-titleBerita {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .boxOut-tabBerita {
+        width: 100%;
+        float: left;
+    }
+
+    .boxOut-menuPegawai {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs {
+        float: left;
+        margin-top: 20px;
+    }
+
+    .boxOut-listPegawai {
+        width: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .img-pegawai {
+        width: 96px;
+        height: 96px;
+    }
+
+    .boxOut-imgPegawai{
+        border-bottom: none;
+        text-align: center;
+    }
+
+    .boxOut-namaPegawai, .boxOut-nipPegawai, .boxOut-jabatanPegawai, .boxOut-jabatan2Pegawai{
+        text-align: center;
+    }
+
+
+
+
+    .navbarMenu-indexBerita > .nav-tabs {
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs > li{
+        width: 50%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs > li > a{
+        font-size: 12px !important;
+    }
+
+    .pegawai-hover{
+        height: 96px;
+        width: 96px;
+        padding: 0px;
+        padding-top: 35px;
+        float: none;
+        position: inherit;
+
+
+        margin-top: -96px;
+    }
+
+    .circle-sosialMedia{
+        height: 20px;
+        width: 20px;
+    }
+
+    .pegawai-sosialImg{
+        height: 9px;
+        margin-top: -4px;
+    }
+
+
+
+
+
+}
+
+

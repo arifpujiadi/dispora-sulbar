@@ -1,0 +1,1448 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 12:29:13 PM
+    Author     : Arif
+*/
+
+.title-tanggal {
+    width: 35px;
+}
+
+.grey-tableTr{
+    font-size: 12px;
+}
+
+.backgroundBottom {
+    padding-bottom: 0px;
+}
+
+.boxOut-search{
+    width: calc(100% - 300px);
+}
+
+.title-table{
+    font-size: 14px;
+    height: 35px !important;
+    text-align: center;
+    padding-top: 10px !important;
+    color: black;
+}
+
+/*-- Tab Foto Video --*/
+/*--==================================================--*/
+
+.navbarMenu-fotoVideoBerita{
+    padding: 0px 0px;
+    //margin-bottom: -15px;
+}
+
+.navbarMenu-fotoVideoBerita > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: left;
+}
+
+.navbarMenu-fotoVideoBerita > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a, 
+.navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a:hover{
+    color: white;
+    -moz-box-sizing: border-box;
+    background-color: transparent;
+
+    width: auto;
+    border: none;
+    border-bottom: 5px solid #066EA4;
+    border-radius: 0px;
+
+    //margin-top: -4px;
+
+}
+
+
+
+.navbarMenu-fotoVideoBerita > .nav-tabs > li > a{
+    color: #A6DFF9;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    width: auto;
+    border-radius: 0px;
+    margin-right: 0px;
+    border: none;
+    border-bottom: 5px solid transparent;
+    -moz-box-sizing: border-box;
+    background-color: transparent;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-tabs-fotoVideoBerita > li{
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.nav-tabs-fotoVideoBerita {
+    border-bottom: none;
+}
+
+
+
+
+.navbarMenu-fotoVideoBerita > .nav-tabs > li > a:hover{
+    background-color: transparent;
+    color: #94D9F8;
+}
+
+
+.boxOut-content-1, .boxOut-content-2, .boxOut-content-3, .boxOut-content-4, .boxOut-content-5{
+    background-color: white;
+}
+
+.boxOut-content-1{
+    padding: 60px 70px 60px 70px;
+}
+
+.boxOut-content-3{
+    padding: 0px 20px 0px 20px;
+}
+
+.boxOut-content-4{
+    padding-bottom: 50px;
+}
+
+.boxOut-contentPopda p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.content-titleText{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/* TAB 2*/
+
+.content-tab-2{
+    padding-bottom: 100px;
+    padding-top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boxOut-table {
+    margin-top: -70px;
+}
+
+
+
+.boxOut-content{
+    margin-top: -85px; 
+    margin-bottom: 65px;
+}
+
+.boxOut-sambutan{
+    background-color: white;
+    padding: 30px 125px 40px 125px;
+}
+
+
+
+
+.boxOut-medal{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 90px;
+}
+
+.boxOut-medal > .col-md-4{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.img-medal{
+    width: 100%;
+}
+
+.boxOut-medalCount{
+    /*    padding-left: 18%;
+        padding-right: 18%;*/
+    //padding-top: 90px;
+
+}
+
+.boxOut-medalCount > .col-md-4 .boxOut-medalGold, .boxOut-medalCount > .col-md-4 .boxOut-medalSilver, .boxOut-medalCount > .col-md-4 .boxOut-medalBronze{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.boxOut-medalGold{
+    color: #FAF068;
+}
+
+.boxOut-medalSilver{
+    color: #B3B3B3;
+}
+
+.boxOut-medalBronze{
+    color: #F89D5C;
+}
+
+
+
+
+.button-medal{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: transparent;
+    color: white !important;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition-duration:0.1s;
+    border: 1px solid white;
+}
+
+.button-medal:hover, .button-medal:focus{
+    background-color: white;
+    color: black !important;
+    transition-duration:0.1s;
+}
+
+.boxOut-buttonMedal{
+    width: 260px;
+    height: 48px;
+    float: none;
+    margin-top: 60px;
+}
+
+.boxOut-tabMedali{
+    width: 30%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-listMedali{
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    border-left: 5px solid #D5EFFC;
+}
+
+.boxOut-tabMedali-title{
+    height: 85px;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: #066EA4;
+}
+
+.box-tabMedali{
+    background-color: #0098DA;
+    height: 200px;
+}
+
+
+
+
+/*-- Tab Index --*/
+/*--==================================================--*/
+
+.navbarMenu-indexBerita{
+    padding: 0px 0px;
+    //margin-bottom: -15px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: left;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active, 
+.navbarMenu-indexBerita > .nav-tabs > li.active:hover{
+    color: white !important;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    margin: 0px;
+    border: none !important;
+    border-radius: 0px;
+    //margin-top: -4px;
+    background-color:#047FBB;
+}
+
+
+
+.navbarMenu-indexBerita > .nav-tabs > li > a{
+    color: white !important;
+    font-size: 14px;
+    padding: 0px;
+    text-align: left;
+    border-radius: 0px;
+    margin-right: 0px;
+    border: none !important;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li > a > .col-md-12{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #047FBB;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-tabs-indexBerita {
+    border-bottom: none;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li:hover{
+    background-color:#047FBB;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active .triangle-menu{
+    display: block;
+}
+
+
+.triangle-menu{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #d5effc transparent transparent;
+
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    display: none;
+}
+
+
+
+.boxOut-table-title{
+    height: 50px;
+    background-color: #047FBB;
+    color: white;
+    padding-left: 45px;
+    font-size: 17px;
+    padding-top: 13px;
+}
+
+
+
+
+
+
+.table-responsive {
+    border: none;
+}
+
+.title-table{
+    font-size: 14px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px !important;
+    color: white;
+    padding: 0px !important;
+    padding-top: 6px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.table-medal{
+    color: #093B75;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.table-medal td{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.td-daerah{
+    padding-left: 20px !important;
+}
+
+.img-tableMedal{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.title-table-1{
+    background-color: #0098DA;
+}
+
+.title-table-2{
+    background-color: #67BDE4;
+}
+
+.title-2{
+    width: 130px;
+}
+
+.title-3{
+    width: 130px;
+}
+
+.title-4{
+    width: 130px;
+}
+
+.title-5{
+    width: 130px;
+}
+
+.tr-1-td-1{
+    background-color: #87D5F7;
+}
+
+.tr-1-td-2{
+    background-color: #A6DFF9;
+}
+
+.tr-2-td-1{
+    background-color: #ACE1F9;
+}
+
+.tr-2-td-2{
+    background-color: #C3E9FB;
+}
+
+.table > tbody > tr > td{
+    padding: 10px;
+}
+
+.boxOut-tabPane .tab-pane{
+    background-color: #67BDE4;
+    height: 235px;
+}
+
+
+.icon-tableSport{
+    width: 16px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.background-fill{
+    background-color: #F9A76C;
+}
+
+.background-fill-2{
+    background-color: #F58634;
+}
+
+
+
+.indicators-edit{
+    bottom: 30px;
+    left: auto;
+    right: 30px;
+    width: 100px;
+    padding-left: 0;
+    //margin-left: -30%;
+    text-align: right;
+    z-index: 1;
+    margin: 0;
+}
+
+.content-top ol {
+    margin-bottom: 0px;
+}
+
+.carousel-indicators .active {
+    width: 9px;
+    height: 9px;
+    background-color: rgba(254, 254, 254, 0.5);
+    border: none !important;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #FEFEFE;
+    border: none !important;
+    border-radius: 10px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.indicators-edit-beritaTab-1{
+    bottom: 20px;
+    left: auto;
+    width: 100%;
+    padding-left: 0;
+    //margin-left: -30%;
+    text-align: center;
+    z-index: 1;
+    margin: 0;
+    //margin-bottom: -50px;
+}
+
+.boxOut-carousel-vs{
+    color: white;
+    font-size: 40px;
+}
+
+.name-club-left{
+    color: white;
+    font-size: 30px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.name-club-right{
+    color: white;
+    font-size: 30px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.nameSub-club-left{
+    color: white;
+    font-size: 24px;
+    text-align: right;
+}
+
+.nameSub-club-right{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+}
+
+.img-club{
+    width: 57px;
+    height: 57px;
+}
+
+.img-location{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.box-keteranganTanding{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.boxOut-keteranganTanding{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+.box-tabMedali-5 {
+    background-color: #0098DA;
+    height: 240px;
+}
+
+
+
+
+.boxOut-map{
+    height: 360px;
+    background-color: #e5e3df;
+}
+
+.boxOut-stadion-left{
+    padding-right: 20px;
+}
+
+.boxOut-stadion-middle{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.boxOut-stadion-right{
+    padding-left: 20px;
+}
+
+.boxOut-title-stadion{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.boxOut-title-stadion a{
+    color: #333333;
+    transition-duration:0.1s;
+}
+
+.boxOut-title-stadion a:hover{
+    color: #6B6B6B;
+    transition-duration:0.1s;
+}
+
+.boxOut-img-stadion{
+    height: 183px;
+    margin-bottom: 15px; 
+}
+
+.boxOut-img-stadion img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-subTitle-stadion{
+    font-size: 13px;
+}
+
+.boxOut-titleBerita{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.boxOut-tanggalBerita{
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.box-titleBerita{
+    font-size: 14px;
+    margin-bottom: 10px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.box-titleBerita a{
+    color: #333333;
+    transition-duration:0.1s;
+}
+
+.box-titleBerita a:hover{
+    color: #6B6B6B;
+    transition-duration:0.1s;
+}
+
+.boxOut-textBerita{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+}
+
+.box-textBerita{
+    overflow: hidden;
+    font-size: 11px;
+    text-align: justify;
+    max-height: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.content-top {
+    padding-bottom: 75px;
+}
+
+.boxOut-table {
+    margin-top: -40px;
+}
+
+.boxOut-contentWhite{
+    background-color: white;
+}
+
+.navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a, .navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a:hover {
+    color: #0098DA;
+    -moz-box-sizing: border-box;
+    background-color: transparent;
+    width: auto;
+    border: none;
+    border-bottom: none;
+    border-radius: 0px;
+    //margin-top: -4px;
+}
+
+.navbarMenu-fotoVideoBerita > .nav-tabs > li > a {
+    color: #B3B3B3;
+}
+
+.navbarMenu-fotoVideoBerita {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 40px;
+}
+
+.boxOut-content-1 {
+    padding: 40px 70px 60px 70px;
+}
+
+.navbarMenu-fotoVideoBerita > .nav-tabs > li > a {
+    padding-bottom: 0px;
+}
+
+.boxOut-selectYears{
+    width: 90px;
+
+    float: right;
+    position: relative;
+    min-height: 1px;
+}
+
+
+
+
+.dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus{
+    border: 1px solid #E6E7E8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../img/icon/arrowDown-dropDownWhite.png') no-repeat;
+    background-position: 20% 50%;
+    background-size: 9px 8px;
+    text-indent: 0.01px;
+    text-overflow: "";
+
+    width: 100%;
+    height: 35px;
+    border-radius: 0px;
+    padding: 0px 15px;
+    background-color: #4ABDED;
+    border: none;
+    box-shadow: none;
+    color: white;
+    font-size: 16px;
+    text-align: right;
+}
+
+.navbarMenu-fotoVideoBerita > .nav-tabs {
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: left;
+    padding-top: 8px;
+}
+
+.boxOut-tabPopda{
+    padding: 0px 0px;
+    font-size: 18px;
+    //margin-bottom: -15px;
+}
+
+.boxOut-tabPopda > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: left;
+}
+
+.boxOut-tabPopda > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a, 
+.boxOut-tabPopda > .nav-tabs > li.active > a:hover{
+    -moz-box-sizing: border-box;
+    background-color: transparent;
+
+    border: none;
+    border-radius: 0px;
+
+    //margin-top: -4px;
+}
+
+.boxOut-tabPopda > ul{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.boxOut-tabPopda > ul > li{
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    margin-top: 60px;
+}
+
+.boxOut-tabPopda > .nav-tabs > li > a {
+    border-bottom: none;
+    margin-right: 0px;
+    color: #838383;
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-align: center;
+}
+
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .text-event-1, .boxOut-tabPopda > .nav-tabs > li > a:hover .text-event-1{
+    color: #A5021F;
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .text-event-2, .boxOut-tabPopda > .nav-tabs > li > a:hover .text-event-2{
+    color: #008EC5;
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .text-event-3, .boxOut-tabPopda > .nav-tabs > li > a:hover .text-event-3{
+    color: #6859A2;
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .text-event-4, .boxOut-tabPopda > .nav-tabs > li > a:hover .text-event-4{
+    color: #F05538;
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .text-event-5, .boxOut-tabPopda > .nav-tabs > li > a:hover .text-event-5{
+    color: #16a085;
+}
+
+.boxOut-tabPopda{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.boxOut-tabPopda > .nav-tabs > li > a:hover {
+    background-color: transparent;
+}
+
+.boxOut-imgEvent-1{
+    height: 135px;
+    background: url('../../img/icon/tabEvent-1.png');
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: auto 110px !important;
+}
+
+.boxOut-imgEvent-2{
+    height: 135px;
+    background: url('../../img/icon/tabEvent-2.png');
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: auto 110px !important;
+}
+
+.boxOut-imgEvent-3{
+    height: 135px;
+    background: url('../../img/icon/tabEvent-3.png');
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: auto 110px !important;
+}
+
+.boxOut-imgEvent-4{
+    height: 135px;
+    background: url('../../img/icon/tabEvent-4.png');
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: auto 110px !important;
+}
+
+.boxOut-imgEvent-5{
+    height: 135px;
+    background: url('../../img/icon/tabEvent-3.png');
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: auto 110px !important;
+}
+
+.text-event{
+    margin-top: 10px;
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .boxOut-imgEvent-1, .boxOut-tabPopda > .nav-tabs > li > a:hover .boxOut-imgEvent-1{
+    background: url('../../img/icon/tabEvent-active-1.png');
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .boxOut-imgEvent-2, .boxOut-tabPopda > .nav-tabs > li > a:hover .boxOut-imgEvent-2{
+    background: url('../../img/icon/tabEvent-active-2.png');
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .boxOut-imgEvent-3, .boxOut-tabPopda > .nav-tabs > li > a:hover .boxOut-imgEvent-3{
+    background: url('../../img/icon/tabEvent-active-3.png');
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .boxOut-imgEvent-4, .boxOut-tabPopda > .nav-tabs > li > a:hover .boxOut-imgEvent-4{
+    background: url('../../img/icon/tabEvent-active-4.png');
+}
+
+.boxOut-tabPopda > .nav-tabs > li.active > a .boxOut-imgEvent-5, .boxOut-tabPopda > .nav-tabs > li > a:hover .boxOut-imgEvent-5{
+    background: url('../../img/icon/tabEvent-active-3.png');
+}
+
+
+
+
+.boxOut-titleBerita {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.boxOut-textBerita {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.boxOut-content {
+    margin-top: 0px;
+    padding-top: 40px;
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+}
+
+.boxOut-listMedali {
+    border-left: none;
+}
+
+.boxOut-table-title {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.td-daerah {
+    padding-left: 70px !important;
+}
+
+.boxOut-title-stadion {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.boxOut-img-stadion {
+    height: 177px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.boxOut-venues{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxOut-content-4 {
+    padding-top: 40px;
+}
+
+.td-daerah {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.navbarMenu-fotoVideoBerita > .nav-tabs > li > a {
+    margin-right: 40px;
+}
+
+.boxOut-tabPane .tab-pane {
+    height: auto;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-searchBox {
+        margin-top: 20px;
+    }
+
+    .boxOut-content-1 {
+        padding: 40px 50px 40px 50px;
+    }
+
+    .boxOut-backgroundText {
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+
+    .box-backgroundText {
+        height: 150px;
+    }
+
+    .boxOut-medal {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .name-club-left{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .name-club-right{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .nameSub-club-left{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .nameSub-club-right{
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+
+
+    .img-club{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .boxOut-carousel-vs {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .content-tab-2 {
+        padding-top: 50px;
+    }
+
+    .boxOut-keteranganTanding {
+        font-size: 14px;
+    }
+
+    .boxOut-img-stadion{
+        height: 138px;
+    }
+
+    .boxOut-title-stadion {
+        font-size: 14px;
+    }
+
+    .boxOut-subTitle-stadion {
+        font-size: 12px;
+    }
+
+    .boxOut-img-stadion img{
+        width: 100%;
+        max-width: 230px;
+        height: 100%;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+
+
+
+    .navbarMenu-fotoVideoBerita {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li > a {
+        font-size: 12px;
+    }
+
+    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus{
+        border: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-position: 20% 50%;
+        background-size: 7px 6px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs {
+        padding-top: 5px;
+    }
+
+    .boxOut-selectYears {
+        width: 70px;
+    }
+
+    .boxOut-tabPopda {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .boxOut-imgEvent-1{
+        height: 90px;
+        background-size: auto 90px !important;
+    }
+
+    .boxOut-imgEvent-2{
+        height: 90px;
+        background-size: auto 90px !important;
+    }
+
+    .boxOut-imgEvent-3{
+        height: 90px;
+        background-size: auto 90px !important;
+    }
+
+    .boxOut-imgEvent-4{
+        height: 90px;
+        background-size: auto 90px !important;
+    }
+    
+    .boxOut-imgEvent-5{
+        height: 90px;
+        background-size: auto 90px !important;
+    }
+
+    .boxOut-tabPopda {
+        font-size: 14px;
+    }
+
+    .boxOut-tabPopda {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .text-event {
+        margin-top: 5px;
+    }
+
+    .td-daerah {
+        padding-left: 20px !important;
+    }
+
+    .boxOut-content {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+    .boxOut-img-stadion {
+        height: 130px;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li > a {
+        margin-right: 20px;
+    }
+
+
+
+
+}
+
+@media (max-width:767px) {
+
+    .boxOut-buttonConvert{
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .boxOut-search{
+        width: calc(100% - 120px);
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li > a{
+        font-size: 9px;
+        margin-right: 10px;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a, 
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a:hover{
+        border-bottom: 5px solid transparent;
+
+    }
+
+    .boxOut-content-1 {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .content-titleText {
+        font-size: 14px;
+    }
+
+    .boxOut-contentPopda p {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    .boxOut-backgroundText {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-backgroundText {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .boxOut-tabMedali{
+        width: 100%;
+    }
+
+    .boxOut-listMedali{
+        width: 100%;
+        margin-top: 20px;
+        border-left: none;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs > li.active .triangle-menu {
+        display: none;
+    }
+
+    .box-tabMedali {
+        height: auto;
+    }
+
+    .boxOut-medal {
+        padding-top: 50px;
+    }
+
+    .img-medal {
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .boxOut-medalCount > .col-md-4 .boxOut-medalGold, .boxOut-medalCount > .col-md-4 .boxOut-medalSilver, .boxOut-medalCount > .col-md-4 .boxOut-medalBronze {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .boxOut-tabMedali-title {
+        height: auto;
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    .boxOut-table-title {
+        height: auto;
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .boxOut-stadion-left{
+        padding-right: 0px;
+    }
+
+    .boxOut-stadion-middle{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .boxOut-stadion-right{
+        padding-left: 0px;
+    }
+
+
+
+
+    .navbarMenu-fotoVideoBerita {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-selectYears {
+        width: 100%;
+    }
+
+    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus{
+        width: 70px;
+        margin-top: 20px;
+    }
+
+    .nav-tabs-fotoVideoBerita > li {
+        width: 50%;
+        height: 30px;
+        text-align: left !important;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li > a {
+        text-align: left;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs {
+        width: 100%;
+    }
+
+    .boxOut-tabPopda > li {
+        height: auto;
+    }
+
+    .boxOut-tabPopda > ul > li {
+        width: 50%;
+    }
+
+    .boxOut-tabPopda > ul > li {
+        margin-top: 35px;
+    }
+
+    .boxOut-imgEvent-1{
+        height: 75px;
+        background-size: auto 75px !important;
+    }
+
+    .boxOut-imgEvent-2{
+        height: 75px;
+        background-size: auto 75px !important;
+    }
+
+    .boxOut-imgEvent-3{
+        height: 75px;
+        background-size: auto 75px !important;
+    }
+
+    .boxOut-imgEvent-4{
+        height: 75px;
+        background-size: auto 75px !important;
+    }
+    
+    .boxOut-imgEvent-5{
+        height: 75px;
+        background-size: auto 75px !important;
+    }
+
+    .boxOut-tabPopda {
+        font-size: 12px;
+    }
+
+
+
+
+    .tab-menu-1, .tab-menu-1 > a{
+        background-color: #047FBB !important;
+        text-align: center !important;
+        color: white !important;
+    }
+
+    .tab-menu-2, .tab-menu-2 > a{
+        background-color: #0098DA !important;
+        text-align: center !important;
+        color: white !important;
+    }
+
+    .tab-menu-3, .tab-menu-3 > a{
+        background-color: #25A8E0 !important;
+        text-align: center !important;
+        color: white !important;
+    }
+
+    .tab-menu-4, .tab-menu-4 > a{
+        background-color: #4ABDED !important;
+        text-align: center !important;
+        color: white !important;
+    }
+
+    .tab-menu-5, .tab-menu-5 > a{
+        background-color: #74C2E4 !important;
+        text-align: center !important;
+        color: white !important;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li > a:hover{
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li > a, .navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a {
+        margin-right: 0px;
+        width: 100% !important;
+        height: 100% !important;
+        padding-top: 9px;
+        font-size: 8px;
+
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a, .navbarMenu-fotoVideoBerita > .nav-tabs > li.active > a:hover {
+        border-bottom: none;
+    }
+
+    .boxOut-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .boxOut-img-stadion img {
+        max-width: 207px;
+    }
+
+    .boxOut-img-stadion {
+        height: 124px;
+    }
+
+
+
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 985px;
+    }
+}

@@ -1,0 +1,1928 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    /*background-image: url('../../img/icon/content-background.png');*/
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.backgroundContent{
+    background-image: url('../../img/icon/content-background.png');
+    background-size: 100% auto;
+}
+
+
+
+.carousel{
+    height: 100%;
+    //padding-top: 69px;
+}
+
+.edit-carousel{
+    height: 100%;
+}
+
+.edit-carousel .item{
+    height: 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: gray;
+}
+
+.boxOut-textSlider{
+    margin-top: 200px;
+    margin-right: 215px;
+    //padding-left: 100px;
+    //padding-right: 100px;
+
+    width: 355px;
+    float: right;
+    position: relative;
+    min-height: 1px;
+}
+
+/*.boxOut-titleSlider{
+    font-size: 80px;
+    color: white;
+}*/
+
+.box-textSlider{
+    color: white;
+    font-size: 14px;
+    max-height: 250px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.button-carrousel{
+    width: 210px;
+    height: 45px;
+    margin: 0px;
+    background-color: #4ABDED;
+    color: white !important;
+    font-size: 15px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    transition-duration:0.1s;
+
+}
+
+.button-carrousel:hover, .button-carrousel:focus{
+    background-color: #0098DA !important;
+    transition-duration:0.1s;
+}
+
+.indicators-edit{
+    bottom: 50px;
+    right: 0;
+    width: 78%;
+    padding-left: 0;
+    //margin-left: -30%;
+    text-align: right;
+
+}
+
+.carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    background-color: #FEFEFE;
+    border: none !important;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #848688;
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.scrollDownSlider-edit{
+    position: absolute;
+    left: 50%;
+    width: 60%;
+    margin-left: -30%;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.scrollDownSlider {
+    background: url(../../img/icon/scroll.png) center center no-repeat;
+    background-size: cover;
+    width: 125px;
+    z-index: 9;
+    height: 110px;
+    float: none;
+    margin-bottom: 0px;
+    bottom: 100px;
+    padding-top: 7px;
+    /*
+        -webkit-animation: fadebottom 3s linear infinite;
+        -moz-animation:    fadebottom 3s linear infinite;
+        -o-animation:      fadebottom 3s linear infinite;
+        -ms-transition:    fadebottom 3s linear infinite;
+        animation:         fadebottom 3s linear infinite;*/
+}
+
+.scrollDownSlider img{
+    width: 24px;
+    height: 58px;
+    float: none;
+
+    -webkit-animation: fadebottom 3s linear infinite;
+    -moz-animation:    fadebottom 3s linear infinite;
+    -o-animation:      fadebottom 3s linear infinite;
+    -ms-transition:    fadebottom 3s linear infinite;
+    animation:         fadebottom 3s linear infinite;
+}
+
+.scrollPageDown {
+
+    position: fixed;
+    z-index: 1;
+    display: none;
+
+    /*    -webkit-animation: fadebottom 3s linear infinite;
+        -moz-animation:    fadebottom 3s linear infinite;
+        -o-animation:      fadebottom 3s linear infinite;
+        -ms-transition:    fadebottom 3s linear infinite;
+        animation:         fadebottom 3s linear infinite;*/
+}
+
+
+
+/*@keyframes blinker {  
+    50% { opacity: 0; }
+}
+
+@keyframes bounce {
+    70% {
+        transform:translateY(0%);
+        padding-bottom: 7px;
+    }
+    80% {
+        transform:translateY(-15%);
+    }
+    90% {
+        transform:translateY(0%);
+        padding-bottom: 8px;
+    }
+    95% {
+        transform:translateY(-7%);
+    }
+    97% {
+        transform:translateY(0%);
+        padding-bottom: 9px;
+    }
+    99% {
+        transform:translateY(-3%);
+    }
+    100% {
+        transform:translateY(0);
+        padding-bottom: 9px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadebottom {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    100%, 45% {
+        opacity: 1;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}*/
+
+
+
+.boxOut-selamatDatang{
+    color: white;
+    font-size: 18px;
+}
+
+.boxOut-dispora{
+    color: #94D9F8;
+    font-size: 52px;
+}
+
+.boxOut-prov{
+    color: white;
+    font-size: 20px;
+}
+
+
+.boxOut-kategori{
+    font-size: 14px;
+    color: #848688;
+    margin-top: 10px;
+}
+
+
+
+.boxOut-sekilasSambutan{
+    background-image: url('../../img/icon/index-sekilas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 930px;
+}
+
+.boxOut-sekilasDispora{
+    //width: 62%;
+    width: 66%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-sambutanDispora{
+    //width: 38%;
+    width: 34%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    background-color: #0098DA;
+}
+
+.boxOut-titleSekilas{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.box-titleSekilas{
+    width: 785px;
+    background-color: #4ABDED;
+    float: right;
+    color: white;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.box-titleSambutan{
+    width: 460px;
+    background-color: #43B1E4;
+    float: left;
+    color: white;
+    padding-left: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.boxOut-imgSekilas{
+    padding-right: 95px;
+}
+
+.img-sekilas{
+    width: 100%;
+}
+
+.boxOut-sekilasText{
+    padding-right: 90px;
+}
+
+.box-sekilasText{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    max-height: 520px;
+    overflow: hidden;
+}
+
+.edit-float{
+    margin-top: 50px;
+    float: right;
+    font-size: 20px;
+}
+
+.boxOut-sambutanText{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.boxOut-sambutanName{
+    color: white;
+    font-size: 32px;
+
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.boxOut-sambutanJabatan{
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.box-sambutanText{
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: justify;
+
+    max-height: 210px;
+    overflow: hidden;
+}
+
+.img-kepala{
+    width: 100%;
+    margin-top: 55px;
+}
+
+
+
+
+.boxOut-penghargaan{
+    background-image: url('../../img/icon/index-penghargaan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 682px;
+}
+
+.box-penghargaan{
+    margin-top: 20px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.boxOut-penghargaanTitle{
+    width: 330px;
+    height: 65px;
+    background-color: #0098DA;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    z-index: 1;
+    text-align: center;
+}
+
+.boxOut-penghargaanCount{
+    height: 65px;
+    color: white;
+    background-color: #4ABDED;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 17px;
+}
+
+.boxOut-medal{
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 90px;
+}
+
+.boxOut-medal > .col-md-4{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.img-medal{
+    width: 100%;
+}
+
+.boxOut-medalCount{
+    /*    padding-left: 18%;
+        padding-right: 18%;*/
+    //padding-top: 90px;
+
+}
+
+.boxOut-medalCount > .col-md-4 .boxOut-medalGold, .boxOut-medalCount > .col-md-4 .boxOut-medalSilver, .boxOut-medalCount > .col-md-4 .boxOut-medalBronze{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 62px;
+}
+
+.boxOut-medalGold{
+    color: #FAF068;
+}
+
+.boxOut-medalSilver{
+    color: #B3B3B3;
+}
+
+.boxOut-medalBronze{
+    color: #F89D5C;
+}
+
+
+
+
+.button-medal{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: transparent;
+    color: white !important;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition-duration:0.1s;
+    border: 1px solid white;
+}
+
+.button-medal:hover, .button-medal:focus{
+    background-color: white;
+    color: black !important;
+    transition-duration:0.1s;
+}
+
+.boxOut-buttonMedal{
+    width: 260px;
+    height: 48px;
+    float: none;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+.boxOut-kalenderBerita{
+    height: 930px;
+}
+
+.boxOut-kalender{
+    width: 34%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-berita{
+    width: 66%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    background-color: #F4F5F6;
+    padding: 40px 100px;
+}
+
+.box-kalender{
+    height: 73%;
+    background-color: #4ABDED;
+
+    padding-left: 100px;
+}
+
+.box-unduh{
+    height: 27%;
+    background-color: #114F94;
+}
+
+
+
+
+.boxOut-unduhTitle{
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.boxOut-unduhText{
+    color: white;
+    font-size: 16px;
+}
+
+.boxOut-buttonUnduh{
+    width: 155px;
+    height: 32px;
+    float: none;
+    margin-top: 10px;
+}
+
+.button-unduh{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: transparent;
+    color: white !important;
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition-duration:0.1s;
+    border: 1px solid white;
+}
+
+.button-unduh:hover, .button-unduh:focus{
+    background-color: white;
+    color: #114F94 !important;
+    transition-duration:0.1s;
+}
+
+.boxOut-kalenderPrimaryTitle{
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.boxOut-kalenderMonthTitle{
+    color: white;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.boxOut-buttonKalender{
+    padding-right: 90px;
+}
+
+.button-kalender{
+    width: 155px;
+    height: 32px;
+    margin: 0px;
+    background-color: #114F94;
+    color: white !important;
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 5px;
+    transition-duration:0.1s;
+    float: right;
+    margin-top: 30px;
+}
+
+.button-kalender:hover, .button-kalender:focus{
+    background-color: #1868C4 !important;
+    transition-duration:0.1s;
+}
+
+
+
+.edit-tableEvent{
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.edit-tableResponsive{
+    height: 420px;
+    margin-top: 20px;
+    border: none;
+}
+
+
+.edit-tableResponsive .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.edit-tableResponsive .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 12px;
+    background-color: #0098DA !important;
+    border-radius: 0px !important;
+}
+
+.edit-tableResponsive .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 12px;
+}
+
+.edit-tableResponsive .mCSB_scrollTools {
+    width: 12px;
+}
+
+.edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #114F94 !important;
+}
+
+.edit-tableResponsive .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools, .mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 1;
+}
+
+
+
+.td-tanggal{
+    color: white;
+    border-right: 2px solid white;
+    width: 50px;
+    text-align: right;
+    padding-right: 10px !important;
+
+    font-size: 38px;
+}
+
+.table > tbody > tr > td{
+    padding: 0px;
+}
+
+.td-title{
+    padding-left: 15px !important;
+    padding-right: 90px !important;
+    padding-top: 5px !important;
+}
+
+.td-title a{
+    color: white;
+    font-size: 18px;
+}
+
+.td-title a:hover{
+    color: #D9D9D9;
+}
+
+.td-text{
+    color: white;
+    padding-left: 15px !important;
+    padding-right: 90px !important;
+    font-size: 14px;
+    padding-top: 5px !important;
+    padding-bottom: 15px !important;
+}
+
+.boxOut-titleBerita{
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    color: #0098DA;
+    font-size: 50px;
+}
+
+.boxOut-tabBerita{
+    width: 75%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    padding-top: 11px !important;
+}
+
+
+
+
+/*-- Tab Index --*/
+/*--==================================================--*/
+
+.navbarMenu-indexBerita{
+    padding: 0px 0px;
+    //margin-bottom: -15px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: right;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active > a, 
+.navbarMenu-indexBerita > .nav-tabs > li.active > a:hover{
+    color: white;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    padding: 10px 20px 0px 20px;
+
+    width: auto;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+    //margin-top: -4px;
+
+}
+
+
+
+.navbarMenu-indexBerita > .nav-tabs > li > a{
+    color: white;
+    font-size: 14px;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    width: auto;
+    border-radius: 0px;
+    margin-right: 0px;
+    border: none;
+    -moz-box-sizing: border-box;
+    height: 40px;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.nav-tabs-indexBerita {
+    border-bottom: none;
+}
+
+
+
+
+
+.tab-berita-1, .tab-berita-1 > a{
+    background-color: #047FBB !important;
+}
+
+.tab-berita-2, .tab-berita-2 > a{
+    background-color: #0098DA !important;
+}
+
+.tab-berita-3, .tab-berita-3 > a{
+    background-color: #25A8E0 !important;
+}
+
+.tab-berita-4, .tab-berita-4 > a{
+    background-color: #4ABDED !important;
+}
+
+.tab-berita-5, .tab-berita-5 > a{
+    background-color: #74C2E4 !important;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+
+}
+
+
+
+
+/*PAGING*/
+.tab1-pagelist, .tab2-pagelist, .tab3-pagelist, .tab4-pagelist  {
+    display: none;
+}
+.tab1-pagelist.active, .tab2-pagelist.active, .tab3-pagelist.active, .tab4-pagelist.active {
+    display: block;
+}
+
+.box-pagination {
+    margin-top: 0px;
+    color: #94D9F8;
+}
+.box-pagination span a {
+    font-size: 22px;
+    color: #94D9F8;
+    padding: 0 3px;
+}
+.box-pagination span a:hover, .box-pagination span a:focus, .box-pagination span a.active {
+    color: #337ab7;
+}
+
+
+
+.boxOut-buttonBerita{
+    margin-top: 20px;
+}
+
+.button-berita{
+    width: 155px;
+    height: 32px;
+    margin: 0px;
+    background-color: #4ABDED;
+    color: white !important;
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    transition-duration:0.1s;
+    float: right;
+    //margin-top: 30px;
+}
+
+.button-berita:hover, .button-berita:focus{
+    background-color: #3895BD !important;
+    transition-duration:0.1s;
+}
+
+.boxOut-indexBerita{
+    border-bottom: 7px solid #4ABDED;
+    margin-top: 35px;
+}
+
+.boxOut-indexBerita > img{
+    width: 100%;
+    max-height: 165px;
+}
+
+.boxOut-beritaTitle{
+    margin-top: 0px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.boxOut-beritaTitle a{
+    color: #727376;
+    font-size: 18px;
+}
+
+.boxOut-beritaTitle a:hover{
+    color: #525252;
+}
+
+.boxOut-beritaText{
+    color: #848688;
+    margin-top: 10px;
+    font-size: 16px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.boxOut-beritaLeft{
+    padding-right: 40px;
+}
+
+.boxOut-beritaRight{
+    padding-left: 40px;
+}
+
+.boxOut-listIndexBerita{
+    min-height: 696px;
+}
+
+
+
+
+.footer-circleUp{
+    height: 94px;
+    width: 94px;
+    border-radius: 100%;
+
+    background-color: #066EA4;
+    //box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    cursor: pointer;
+    position: fixed !important;
+    bottom: 10px !important;
+    right: 50px;
+    visibility: visible;
+    z-index: 2147483639;
+    padding: 10px;
+    transition-duration:0.1s;
+}
+
+.footer-circleUp:hover{
+    background-color: #05537D;
+    transition-duration:0.1s;
+}
+
+.footer-circleUp img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-unduhBerkas-img{
+    padding-top: 30px;
+}
+
+
+.boxOut-unduhBerkas-img img{
+    width: 64px;
+    height: 80px;;
+}
+
+
+
+
+.edit-carousel .item {
+    background-color: transparent;
+}
+
+.indicators-edit-berita {
+    bottom: 0px;
+    left: 0;
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0;
+    //margin-left: -30%;
+    text-align: left;
+    margin-bottom: -45px;
+}
+
+.indicators-edit-berita .active {
+    width: 13px;
+    height: 13px;
+    background-color: #114F94;
+    border: none !important;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+.indicators-edit-berita li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #94D9F8;
+    border: none;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+
+.edit-carousel-beritaIndex .item {
+    min-height: 734px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active > a, .navbarMenu-indexBerita > .nav-tabs > li.active > a:hover {
+    padding: 10px 10px 0px 10px;
+}
+
+
+
+
+
+
+@keyframes blinker {  
+    50% { opacity: 0; }
+}
+
+@keyframes bounce {
+    70% {
+        transform:translateY(0%);
+        padding-bottom: 7px;
+    }
+    80% {
+        transform:translateY(-15%);
+    }
+    90% {
+        transform:translateY(0%);
+        padding-bottom: 8px;
+    }
+    95% {
+        transform:translateY(-7%);
+    }
+    97% {
+        transform:translateY(0%);
+        padding-bottom: 9px;
+    }
+    99% {
+        transform:translateY(-3%);
+    }
+    100% {
+        transform:translateY(0);
+        padding-bottom: 9px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadebottom {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    100%, 45% {
+        opacity: 1;
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-textSlider{
+        margin-top: 8%;
+        margin-right: 155px;
+        width: 255px;
+        float: right;
+    }
+
+    .boxOut-titleSlider{
+        font-size: 56px;
+        color: white;
+        padding-right: 0px;
+    }
+
+    .box-textSlider{
+        max-height: 140px;
+    }
+
+    .carousel {
+        //padding-top: 49px;
+    }
+
+    .carousel-indicators .active {
+        width: 9px;
+        height: 9px;
+        margin-right: 10px;
+    }
+
+    .carousel-indicators li {
+        width: 9px;
+        height: 9px;
+        margin-right: 10px;
+    }
+
+    .scrollDownSlider {
+        width: 88px;
+        height: 79px;
+    }
+
+    .scrollDownSlider img{
+        width: 17px;
+        height: 42px;
+    }
+
+    .boxOut-prov {
+        font-size: 16px;
+    }
+
+    .boxOut-dispora {
+        font-size: 42px;
+    }
+
+    .boxOut-selamatDatang {
+        font-size: 14px;
+    }
+
+    .box-textSlider {
+        font-size: 13px;
+        padding-top: 30px;
+        max-height: 180px;
+    }
+
+    .button-carrousel {
+        width: 150px;
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .indicators-edit {
+        bottom: 35px;
+    }
+
+
+
+
+
+
+    .boxOut-titleSekilas {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .box-titleSekilas {
+        width: 555px;
+        padding-left: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .box-titleSambutan {
+        width: 390px;
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 22px;
+
+        max-width: 100%;
+    }
+
+    .boxOut-sekilasSambutan{
+        height: 660px;
+    }
+
+    .box-sekilasText {
+        font-size: 12px;
+        max-height: 345px;
+    }
+
+    .boxOut-imgSekilas {
+        padding-right: 70px;
+    }
+
+    .boxOut-sekilasText {
+        padding-right: 60px;
+    }
+
+    .boxOut-sambutanText {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .box-sambutanText {
+        font-size: 12px;
+        margin-top: 20px;
+        max-height: 120px;
+    }
+
+    .boxOut-sambutanName {
+        font-size: 24px;
+    }
+
+    .boxOut-sambutanJabatan {
+        font-size: 10px;
+    }
+
+
+
+
+
+    .boxOut-medal > .col-md-4{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .boxOut-medal {
+        padding-left: 19%;
+        padding-right: 19%;
+        padding-top: 65px;
+    }
+
+    .boxOut-medalCount > .col-md-4 .boxOut-medalGold, .boxOut-medalCount > .col-md-4 .boxOut-medalSilver, .boxOut-medalCount > .col-md-4 .boxOut-medalBronze{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    /*    .boxOut-medalCount > .col-md-4 {
+            padding-left: 45px;
+            padding-right: 45px;
+            font-size: 30px;
+        }
+    
+        .boxOut-medalCount {
+            padding-left: 19%;
+            padding-right: 19%;
+            padding-top: 20px;
+        }*/
+
+    .boxOut-penghargaanTitle {
+        width: 230px;
+        height: 45px;
+        font-size: 22px;
+        padding-top: 7px;
+    }
+
+
+
+    .boxOut-penghargaanCount {
+        height: 45px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .boxOut-buttonMedal {
+        width: 180px;
+        height: 35px;
+        margin-top: 45px;
+    }
+
+    .button-medal {
+        font-size: 10px;
+    }
+
+    .boxOut-penghargaan {
+        height: 485px;
+    }
+
+    .box-penghargaan {
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+
+
+
+
+    .boxOut-kalenderBerita{
+        height: 660px;
+    }
+
+
+
+
+    .boxOut-buttonUnduh{
+        width: 110px;
+        height: 23px;
+        margin-top: 5px;
+    }
+
+    .button-unduh{
+        font-size: 10px;
+    }
+
+    .boxOut-unduhText {
+        font-size: 12px;
+    }
+
+    .boxOut-unduhTitle {
+        font-size: 28px;
+        margin-top: 12px;
+    }
+
+
+
+    .box-kalender {
+        padding-left: 70px;
+    }
+
+    .boxOut-kalenderPrimaryTitle {
+        font-size: 38px;
+        margin-top: 30px;
+    }
+
+    .boxOut-kalenderMonthTitle {
+        font-size: 20px;
+    }
+
+    .edit-tableResponsive {
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .td-tanggal {
+        width: 40px;
+        font-size: 28px;
+    }
+
+    .td-text {
+        padding-left: 10px !important;
+        padding-right: 60px !important;
+        font-size: 10px;
+    }
+
+    .td-title {
+        padding-left: 10px !important;
+        padding-right: 60px !important;
+        padding-top: 0px !important;
+    }
+
+    .td-title a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .button-kalender {
+        width: 105px;
+        height: 23px;
+        font-size: 8px;
+        margin-top: 20px;
+    }
+
+    .edit-tableResponsive .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+        width: 8px;
+    }
+
+    .edit-tableResponsive .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        width: 8px;
+    }
+
+    .edit-tableResponsive .mCSB_scrollTools {
+        width: 8px;
+    }
+
+
+
+
+    .boxOut-berita {
+        padding: 30px 45px;
+    }
+
+    .boxOut-titleBerita {
+        font-size: 38px;
+    }
+
+
+    .navbarMenu-indexBerita > .nav-tabs > li.active > a, 
+    .navbarMenu-indexBerita > .nav-tabs > li.active > a:hover{
+        font-size: 10px;
+        padding: 7px 10px 0px 10px;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs > li > a{
+        font-size: 10px;
+        padding: 7px 10px 0px 10px;
+        height: 30px;
+    }
+
+
+
+    .button-berita {
+        width: 105px;
+        height: 23px;
+        font-size: 8px;
+    }
+
+    .box-pagination {
+        margin-top: 0px;
+    }
+
+    .box-pagination span a {
+        font-size: 16px;
+    }
+
+
+
+
+    .boxOut-beritaLeft{
+        padding-right: 30px;
+    }
+
+    .boxOut-beritaRight{
+        padding-left: 30px;
+    }
+
+    .boxOut-indexBerita {
+        margin-top: 25px;
+    }
+
+    .boxOut-indexBerita > img {
+        max-height: 115px;
+    }
+
+    .boxOut-beritaTitle a {
+        font-size: 14px;
+    }
+
+    .boxOut-beritaTitle {
+        height: 40px;
+    }
+
+    .boxOut-beritaText {
+        margin-top: 5px;
+        font-size: 12px;
+        height: 35px;
+    }
+
+    .boxOut-listIndexBerita {
+        min-height: 500px;
+    }
+
+    .boxOut-buttonBerita {
+        margin-top: 20px;
+    }
+
+
+    .footer-circleUp{
+        height: 67px;
+        width: 67px;
+        padding: 5px;
+    }
+
+    .boxOut-unduhBerkas-img img {
+        width: 46px;
+        height: 57px;
+    }
+
+    .boxOut-unduhBerkas-img {
+        padding-top: 20px;
+    }
+
+    .boxOut-unduhTitle {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+
+
+}
+
+
+@media (max-width:1200px) {
+
+    .boxOut-normalTransform img {
+        margin-top: 14px;
+    }
+
+    .carousel{
+        //padding-top: 30px;
+    }
+
+    #nav-menu2.affix {
+        top: 30px;
+    }
+}
+
+@media (max-width:992px) {
+
+    .boxOut-textSlider{
+        margin: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 150px;
+        width: 100%;
+        float: left;
+    }
+
+    .box-textSlider {
+        font-size: 12px;
+        padding-top: 20px;
+        max-height: 180px;
+    }
+
+    .boxOut-sekilasDispora{
+        width: 100%;
+    }
+
+    .boxOut-sambutanDispora{
+        width: 100%;
+    }
+
+    .boxOut-kalender{
+        width: 100%;
+    }
+
+    .boxOut-berita{
+        width: 100%;
+    }
+
+    .box-titleSekilas {
+        width: 65%;
+        padding-left: 20px;
+        font-size: 18px;
+        float: left;
+    }
+
+    .box-titleSambutan {
+        width: 65%;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .boxOut-sekilasSambutan{
+        height: auto;
+    }
+
+    .edit-float {
+        margin-bottom: 50px;
+    }
+
+    .img-sekilas{
+        max-width: 240px;
+    }
+
+    .boxOut-kepalaImg{
+
+    }
+
+    .box-sambutanText {
+        max-height: none;
+    }
+
+    .img-kepala {
+        margin-top: 55px;
+        max-width: 330px;
+        margin-left: 45px;
+        margin-bottom: 50px;
+    }
+
+    .box-titleSekilas {
+        padding-left: 45px;
+    }
+
+    .box-titleSambutan {
+        padding-left: 45px;
+    }
+
+    .boxOut-sekilasText {
+        padding-right: 45px;
+    }
+
+    .boxOut-sambutanText {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .boxOut-sekilasDispora {
+        background-image: url('../../img/icon/index-sekilas.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+
+
+    .box-penghargaan {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-medal {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .boxOut-medalCount {
+        /*        padding-left: 70px;
+                padding-right: 70px;*/
+    }
+
+    .boxOut-penghargaan {
+        height: auto;
+    }
+
+    .boxOut-buttonMedal {
+        margin-bottom: 50px;
+    }
+
+    .boxOut-kalenderBerita{
+        height: auto;
+    }
+
+    .boxOut-buttonUnduh{
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .edit-tableResponsive{
+        height: auto;
+        max-height: 350px;
+    }
+
+    .box-kalender {
+        padding-left: 45px;
+    }
+
+    .td-text {
+        padding-right: 45px !important;
+    }
+
+    .td-title {
+        padding-right: 45px !important;
+    }
+
+    .button-kalender {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-buttonKalender {
+        padding-right: 45px;
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+
+
+    .boxOut-textSlider{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 150px;
+        width: 100%;
+    }
+
+    .box-textSlider {
+        font-size: 10px;
+        padding-top: 20px;
+        max-height: 175px;
+    }
+
+    .boxOut-selamatDatang {
+        font-size: 12px;
+    }
+
+    .boxOut-prov {
+        font-size: 14px;
+    }
+
+    .boxOut-dispora {
+        font-size: 36px;
+    }
+
+    .button-carrousel {
+        width: 100px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+
+
+
+    .boxOut-imgSekilas {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .img-sekilas{
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-sekilasText {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .box-sekilasText {
+        max-height: none;
+    }
+
+
+    .box-titleSekilas {
+        width: 100%;
+    }
+
+    .box-titleSambutan {
+        width: 100%;
+    }
+
+    .box-titleSekilas {
+        padding-left: 20px;
+    }
+
+    .box-titleSambutan {
+        padding-left: 20px;
+    }
+
+    .boxOut-sekilasText {
+        padding-right: 20px;
+    }
+
+    .boxOut-sambutanText {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-kepalaImg {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .img-kepala {
+        max-width: 330px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .img-medal {
+        max-width: 130px;
+    }
+
+    .boxOut-medalCount > .col-md-4 .boxOut-medalGold, .boxOut-medalCount > .col-md-4 .boxOut-medalSilver, .boxOut-medalCount > .col-md-4 .boxOut-medalBronze {
+        padding-top: 10px;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-medal {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-penghargaan {
+        background-position: center;
+    }
+
+    .boxOut-buttonMedal {
+        margin-top: 0px;
+    }
+
+    .boxOut-penghargaanTitle {
+        width: 150px;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .boxOut-medal {
+        padding-top: 20px;
+    }
+
+
+
+
+    .boxOut-kalenderPrimaryTitle {
+        font-size: 34px;
+        margin-top: 20px;
+    }
+
+    .box-kalender {
+        padding-left: 20px;
+    }
+
+    .td-text {
+        padding-right: 20px !important;
+    }
+
+    .td-title {
+        padding-right: 20px !important;
+    }
+
+    .boxOut-buttonKalender {
+        padding-right: 20px;
+    }
+
+
+
+
+    .boxOut-titleBerita {
+        width: 100%;
+    }
+
+    .boxOut-tabBerita{
+        width: 100%;
+    }
+
+    .boxOut-berita {
+        padding: 20px 20px;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs {
+        float: left;
+    }
+
+    .boxOut-titleBerita {
+        font-size: 34px;
+    }
+
+    .box-pagination {
+        margin-top: 10px;
+    }
+
+    .button-berita {
+        margin-top: 20px;
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+
+
+    .boxOut-beritaLeft{
+        padding-right: 0px;
+    }
+
+    .boxOut-beritaRight{
+        padding-left: 0px;
+    }
+
+    .boxOut-indexBerita {
+        max-width: 375px;
+        float: none;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .boxOut-indexBerita > img {
+        max-width: 375px;
+        max-height: 130px;
+    }
+
+    .boxOut-beritaTitle {
+        height: auto;
+        max-height: 20px;
+    }
+
+    .box-pagination {
+        text-align: center;
+    }
+
+    .boxOut-listIndexBerita {
+        min-height: 0px;
+    }
+
+
+
+
+
+    .footer-circleUp{
+        height: 45px;
+        width: 45px;
+        padding-top: 10px;
+        right: 10px;
+        padding: 5px;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs {
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .navbarMenu-indexBerita > .nav-tabs > li{
+        width: 50%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+    }
+
+
+
+
+
+
+}
+
+

@@ -1,0 +1,527 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 12:29:13 PM
+    Author     : Arif
+*/
+
+
+.backgroundTop{
+    background-color: #0098DA;
+}
+
+.backgroundBottom{
+    background-color: #F4F5F6;
+}
+
+.content-top{
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.content-bottom{
+
+}
+
+.boxOut-subTitleTop{
+    color: white;
+    font-size: 16px;
+}
+
+.boxOut-titleTop{
+    margin-top: 25px;
+}
+
+.boxOut-primaryTitleTop{
+    font-size: 28px;
+    color: white;
+}
+
+
+.boxOut-content{
+    background-color: white;
+    padding: 80px 200px;
+    text-align: justify;
+    font-size: 15px;
+    color: #4D4D4D;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.boxOut-content p{
+    margin-bottom: 20px;
+}
+
+.list-text{
+    padding-left: 20px;
+}
+
+.list-text li {
+    list-style-type: disc;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+
+
+
+.btn-filter {
+    background-color: #94D9F8;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 15px;
+    float: right;
+    font-size: 12px;
+}
+
+.btn-filter img {
+    margin-right: 5px;
+}
+
+.all-btnSearch:hover, .all-btnSearch:focus, .all-btnSearch:active {
+    background-color: #0A76AA;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.search-form .icon-left {
+    left: 0;
+    top: 3px;
+    color: #0098DA;
+}
+.search-form .form-control {
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 0;
+    height: auto;
+    color: #0098DA;
+}
+
+.search-form .form-control::-webkit-input-placeholder {
+    color: #0098DA;
+}
+
+.search-form .form-control::-moz-placeholder {
+    color: #0098DA;
+}
+
+.boxOut-main {
+    margin-top: -45px; 
+    background-color: #fff;
+}
+
+.main-content {
+
+    position: relative;
+    padding: 40px 20px;
+}
+
+.main-content .outer-boxBerkas {
+    /*padding: 0 20px;*/
+    margin-bottom: 20px;
+}
+
+.box-berkas {
+    border: 1px solid #4ABDED;
+    padding: 20px;
+    width: 196px;
+    height: 196px;
+    margin: 0 auto;
+}
+
+.box-berkas * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-berkas .berkas-name {
+    margin-top: 15px;
+    font-size: 10px;
+    color: #4D4D4D;
+    height: 30px;
+    overflow: hidden;
+}
+
+.box-berkas .download-link {
+    margin-top: 18px;
+    color: #94D9F8;
+}
+
+.download-link a {
+    color: #94D9F8;
+}
+
+.download-link a:hover {
+    color: #0098DA;
+    transition-duration: 0.3s;
+}
+
+.box-pagination {
+    padding: 0 40px 0px 40px;
+    text-align: center;
+    color: #94D9F8;
+}
+
+span a {
+    font-size: 18px;
+    color: #94D9F8;
+    padding: 0 3px;
+}
+
+span a:hover, span a:focus, span a.active {
+    color: #337ab7;
+}
+
+
+.share-popup {
+    width : 290px;
+    height : auto;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    margin-top: 0px;
+    background-color: #EEF8FD;
+
+    border-radius: 0px;
+    padding: 0px 20px 30px 20px;
+    right: 0;
+    border-bottom: 2px solid #066EA4;
+    margin-top: 37px;
+}
+
+.dropdown-guestCheckout, .dropdown-guestCheckout:focus{
+    height:26px;
+    border-radius: 0px;
+    padding: 0px 0px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #047FBB;
+    box-shadow: none;
+    color: #047FBB;
+    font-size: 14px;
+    font-style: normal;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../img/icon/arrowDown-dropDownBlue.png') no-repeat;
+    background-size: 6px 6px;
+    background-position: 97% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+    margin-top: 15px;
+}
+
+.dropdown-option, .dropdown-option:focus{
+    height:25px;
+    border-radius: 0px;
+    padding: 0px 5px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #047FBB;
+    font-size: 12px;
+    font-style: normal;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../img/icon/arrowDown-dropDownBlue.png') no-repeat;
+    background-size: 6px 6px;
+    background-position: 95% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+}
+
+
+
+
+.box-checkBox{
+    padding-top: 10px;    
+}
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    //margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #FEFEFE;;
+    border: 1px solid #047FBB;
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    padding: 0px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 0px;
+
+
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: #047FBB;
+    box-shadow: inset 0px 0px 0px 0px #047FBB;
+    border-radius: 100%;
+
+}
+
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+    outline: 0px none; /* focus style */
+}
+
+.checkbox-custom-label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-weight: normal !important;
+    font-size: 12px;
+    margin-left: 0px;
+    color: #047FBB !important;
+}
+
+
+.checkbox1-hide{
+    //display: none;
+}
+
+.checkbox2-hide{
+    display: none;
+}
+
+.boxCheckboxContent{
+    background-color: #F2F3F3;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.btn-cari {
+    position: relative;
+    font-size: 13px;
+    height: 28px;
+    width: 85px;
+    padding-top: 4px;
+    padding-left: 10px;
+    border-radius: 0px;
+    background-color: #67BDE4;
+    border: none;
+    color: white;
+    transition-duration: 0.1s;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 20px;
+}
+
+.btn-cari:hover, .btn-cari:focus{
+    background-color: #4F93B3 !important;
+    color: white !important;
+    transition-duration: 0.1s;
+}
+
+
+
+
+
+.title-page{
+    color: #208EC1;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.page-content {
+    display: none;
+    min-height: 300px;
+}
+.page-content.active {
+    display: block;
+}
+
+.boxOut-contentPage{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.boxOut-titleResult{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.boxOut-titleResult a{
+    color: #0000CC;
+    font-size: 18px;
+}
+
+.boxOut-titleResult a:hover{
+    text-decoration: underline;
+}
+
+.boxOut-linkResult{
+    color: #078407;
+    font-size: 14px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 3px;
+}
+
+.boxOut-textResult-foto{
+    max-height: 62px;
+    font-size: 14px;
+    padding-left: 10px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.boxOut-fotoResult{
+    height: 65px;
+}
+
+.boxOut-fotoResult a{
+    display:block; 
+    width: 100%;
+    height:100%; 
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.boxOut-listResult{
+    margin-bottom: 30px;
+}
+
+.boxOut-textResult{
+    max-height: 40px;
+    font-size: 14px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.boxOut-fileResult{
+    font-size: 14px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.boxOut-fileResult font{
+    color: #848484;
+}
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-content {
+        margin-top: 140px;
+        padding: 40px 65px;
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+
+    .boxOut-titleTop{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .boxOut-primaryTitleTop {
+        margin-bottom: 20px;
+    }
+
+    .boxOut-content {
+        padding: 20px 20px;
+        font-size: 14px;
+    }
+
+    .list-text li {
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .content-top {
+        margin-top: 120px !important;
+        padding-bottom: 50px;
+    }
+
+
+    .share-popup {
+        width: 245px;
+        right: inherit;
+        left: 0 !important;
+        margin-top: 48px;
+    }
+
+    .btn-filter {
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .boxOut-textResult-foto {
+        padding-left: 0px;
+    }
+
+    .boxOut-fotoResult {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+}
+
+

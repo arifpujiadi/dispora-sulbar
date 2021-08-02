@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 12:29:13 PM
+    Author     : Arif
+*/
+
+.backgroundBottom {
+    padding-bottom: 0;
+}
+
+.boxOut-titleTop {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 0 25px;
+}
+.box-offset {
+    margin-top: -90px;
+    background: #fff;
+    padding: 15px 25px;
+}
+
+.boxOut-struktur {
+    min-height: 200px;
+}
+
+.boxOut-struktur img{
+    width: 100%;
+}
+
+.boxOut-primaryTitleTop{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 992px) {
+
+    .content-top {
+        margin-top: 140px !important;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 767px) {
+
+    .boxOut-primaryTitleTop {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 985px;
+    }
+}
